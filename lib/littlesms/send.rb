@@ -1,7 +1,7 @@
 require 'net/http'
 
 module LittleSms
-  BASE_URL = "http://littlesms.ru/api/"
+  BASE_URL = "http://smsc.ru/api/"
   SEND_TAIL = "message/send"
 
   def self.send_sms phone, message, options={}
